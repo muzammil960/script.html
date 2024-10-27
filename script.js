@@ -3,6 +3,7 @@ document.getElementById('caloriesForm').addEventListener('submit', function(even
 
     const petType = document.getElementById('petType').value;
     const weight = parseFloat(document.getElementById('weight').value);
+    const age = parseFloat(document.getElementById('age').value);
     const activityLevel = document.getElementById('activityLevel').value;
    const neutered = petType === 'cat' ? document.getElementById('neutered').value : null;
 
